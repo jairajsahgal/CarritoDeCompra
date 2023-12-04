@@ -8,7 +8,7 @@ class ApiConfig(AppConfig):
 
     def ready(self) -> None:
         if settings.SCHEDULER_AUTOSTART:
-            from api.scheduler import scheduler
+            from api import scheduler
 
             scheduler.start()
         return super().ready()
