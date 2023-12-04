@@ -15,6 +15,12 @@ django = "*"
 djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
+jupyter = "*"
+pyyaml = "*"
+uritemplate = "*"
+drf-yasg = "*"
+django-rest-knox = "*"
+django-apscheduler = "*"
 
 [dev-packages]
 
