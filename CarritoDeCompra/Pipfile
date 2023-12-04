@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2022.12.7"
+distlib = "==0.3.6"
+filelock = "==3.9.0"
+pipenv = "==2023.2.4"
+platformdirs = "==3.0.0"
+virtualenv = "==20.19.0"
+virtualenv-clone = "==0.5.7"
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
